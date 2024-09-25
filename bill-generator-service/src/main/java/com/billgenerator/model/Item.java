@@ -26,6 +26,15 @@ public class Item {
 	public void setAmount(double amount) {
 		this.amount = amount;
 	}
+	public Item() {
+		super();
+	}
+	public Item(String name, String category, double amount) {
+		super();
+		this.name = name;
+		this.category = category;
+		this.amount = amount;
+	}
 	
 	
 }

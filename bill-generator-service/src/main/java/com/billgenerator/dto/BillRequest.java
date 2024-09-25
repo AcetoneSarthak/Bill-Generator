@@ -41,12 +41,18 @@ public class BillRequest {
 	}
 	public void setTargetCurrency(String targetCurrency) {
 		this.targetCurrency = targetCurrency;
+	}	
+	
+	
+	public BillRequest() {
+		super();
 	}
+	
+	
 	public BillRequest(List<Item> items, String userType, int tenureInYears, String originalCurrency,
 			String targetCurrency) {
 		super();
 		this.items = items;
-	
 		this.userType = userType;
 		this.tenureInYears = tenureInYears;
 		this.originalCurrency = originalCurrency;
